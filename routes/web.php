@@ -22,6 +22,7 @@ Auth::routes();
 Route::get('/homeDonate', 'HomeController@show')->name("homeDonate");
 Route::get('/history/show', 'HistoryController@show')->name("history.show");
 Route::get('/history/create', 'CreateController@create')->name("history.create");
+Route::get('/scores', 'PointsController@scores')->name("scores");
 Route::post('/history/save', 'CreateController@save')->name("history.save");
 Route::post('/homeDonate', 'HomeController@filtro')->name("filtro");
 

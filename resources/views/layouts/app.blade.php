@@ -60,7 +60,10 @@
                                     </a>
                                     <a class="dropdown-item" href="{{ route('history.create') }}">
                                         {{ __('Añadir donación') }}
-                                    </a>      
+                                    </a>     
+                                    <a class="dropdown-item" href="{{ route('scores') }}">
+                                        {{ __('Scoreboard') }}
+                                    </a>    
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
